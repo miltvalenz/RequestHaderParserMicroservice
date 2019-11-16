@@ -4,11 +4,12 @@
 	"description": "API project for freeCodeCamp",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "nodemon ./server.js localhost 8080"
 	},
 	"dependencies": {
+		"cors": "^2.8.1",
 		"express": "^5.0.0-alpha.2",
-		"cors": "^2.8.1"
+		"ua-parser": "^0.3.5"
 	},
 	"engines": {
 		"node": "4.4.5"
